@@ -1,0 +1,62 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+html{
+  font-family: sans-serif;
+  color: whitesmoke;
+}
+.container{
+  background-color: #669;
+  width:100%;
+  height:100vh;
+  display:flex;
+  align-items: flex-end;
+  justify-content: center;
+  flex-wrap: wrap;
+  transition: 0.5s ease;
+}
+ul{
+  text-decoration: none;
+  width: 100%;
+  align-self: flex-start;
+  display: flex;
+  justify-content: space-around;
+  margin:20px 0 0 0;
+  font-size: 1.5rem;
+}
+li{
+  text-decoration: none;
+}
+.advice{
+  font-size: 3.5rem;
+  width:90%;
+  text-align: center;
+  transition: 0.5s ease-in-out;
+}
+.red{
+  background-color: #FF6961 !important;
+  color: black;
+}
+.green{
+ background-color: #7d7 !important;
+ color: black;
+}
+.blue{
+  background-color: #A7C7E7 !important;
+  color: black;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
